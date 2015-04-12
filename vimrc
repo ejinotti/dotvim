@@ -41,6 +41,9 @@ let g:netrw_banner = 0
 
 nmap <leader>d :Lex<CR>
 
+" ----- wildignore for ctrlp --------------
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
+
 " ----- syntastic settings -----------------
 let g:syntastic_error_symbol = '✘'
 let g:syntastic_warning_symbol = "▲"
