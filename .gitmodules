@@ -28,3 +28,6 @@
 [submodule "bundle/vim-jinja2-syntax"]
 	path = bundle/vim-jinja2-syntax
 	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
+	url = git@github.com:wavded/vim-stylus.git
