@@ -34,12 +34,9 @@ let g:airline_powerline_fonts = 1
 let g:airline_detect_paste=1
 let g:airline#extensions#tabline#enabled = 1
 
-" ----- file tree -------------------------
-let g:netrw_liststyle = 3
-let g:netrw_winsize   = 15
-let g:netrw_banner = 0
-
-nmap <leader>d :Lex<CR>
+" ----- NERDTree --------------------------
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 
 " ----- wildignore for ctrlp --------------
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
