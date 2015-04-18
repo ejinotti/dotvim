@@ -24,6 +24,9 @@ syntax on
 
 set mouse=a
 
+" ----- misc settings ---------------------
+:nnoremap <silent> <CR> :nohlsearch<CR><CR>
+
 " ----- solarized settings ------------------
 set background=dark
 colorscheme solarized
