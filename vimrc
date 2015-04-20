@@ -25,7 +25,7 @@ syntax on
 set mouse=a
 
 " ----- misc settings ---------------------
-set cc=81,82,83,84,85,86,87,88,89,90
+set cc=81,82,83,84
 nnoremap <silent> <CR> :nohlsearch<CR><CR>
 
 " ----- solarized settings ------------------
