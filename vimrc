@@ -25,6 +25,7 @@ syntax on
 set mouse=a
 
 " ----- misc settings ---------------------
+au BufNewFile,BufRead *.marko set filetype=html
 set cc=81,82,83,84
 nnoremap <silent> <CR> :nohlsearch<CR><CR>
 
